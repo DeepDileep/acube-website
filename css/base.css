@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+/* **************BASIC RESETTING************ */
+/* ***************************************** */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* *************SETTING ROOT PROPERTIES****** */
+/* ***************************************** */
+
+:root {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  --light-blue: #232399;
+  --medium-blue: #191970;
+  --dark-blue: #002244;
+  --vibrant-blue: #3f00ff;
+}
+
+body {
+  background-color: var(--dark-blue);
+}
+/* ***********TYPOGRAPHY******************* */
+/* ************************************** */
+
+h1 {
+  font-size: 4rem;
+  color: rgb(244, 248, 255);
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+  color: rgb(231, 240, 255);
+  letter-spacing: 1.5px;
+  margin-bottom: 1.5rem;
+}
+h3 {
+  font-size: 2rem;
+  color: rgb(227, 237, 255);
+  letter-spacing: 1.5px;
+  margin-bottom: 1.2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: rgb(218, 232, 255);
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: rgb(218, 232, 255);
+  letter-spacing: 1px;
+}
+
+div {
+  font-size: 1.5rem;
+  color: rgb(218, 232, 255);
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
